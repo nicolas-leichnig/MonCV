@@ -1,0 +1,149 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+	font-family: 'Dosis', sans-serif;
+	background-color : #1E3C62;
+	margin : 10px;
+}
+.marge {
+	margin-left: 15px;
+}
+
+.time{
+	margin-top: 28px;
+	
+}
+
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+.pop{
+	margin-top: 15px;
+}
+
+.carousel-page
+{
+width:100%;
+height:400px;
+background-color:#5f666d;
+color:white;
+}
+
+.bo{
+	border-radius: 20px;
+}
+
+.image{
+	height: 400px;
+	width: 100%;
+}
+
+.textimg{
+	font-size: 4.5em;
+}
+
+.logo{
+	width: 65px;
+	margin-top: -33px;
+}
+
+.card{
+	height: 450px;
+}
+
+}
+span{
+	font-weight: bolder;
+}
+.success-lighter-hover {
+  color: #00C851;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.success-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #16ff74; }
+
+.success-darker-hover {
+  color: #00C851;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.success-darker-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #007c32; }
+
+
+
+.cyan-lighter-hover {
+  color: #00bcd4;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.cyan-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #22e6ff; }
+
+.cyan-darker-hover {
+  color: #00bcd4;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.cyan-darker-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #007888; }
+
+
+.white-lighter-hover {
+  color: #fff;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.white-lighter-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: white; }
+
+.white-darker-hover {
+  color: black;
+  -webkit-transition: .4s;
+  transition: .4s; }
+.white-darker-hover:hover {
+  -webkit-transition: .4s;
+  transition: .4s;
+  color: #1A2E48; }
+
+/*Timeline*/
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #22c0e8;
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
